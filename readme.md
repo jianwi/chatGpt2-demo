@@ -37,7 +37,17 @@ python app.py
 ## 注意事项
 
 - 可以根据需要调整GPT-2模型的参数，以获得更高质量的生成结果。
+比如增加max_length的值，可以输出更多字符。
 - 如果运行不起来，可能需要安装 PyTorch库:
 ```shell
 pip install torch
 ```
+
+## 演示
+![问题1](./demo/1.png)
+
+在html中显示hello world
+![问题2](./demo/2.png)
+
+调节max_length值，输出更多字符
+![问题3](./demo/3.png)
